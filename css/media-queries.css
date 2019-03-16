@@ -1,5 +1,53 @@
-@media screen and (max-width:960px){
+@media screen and (max-width:980px){
     .wrapper{
         width: 95%
+    }
+    article{
+        width: 60%;
+		padding: 3% 4%;
+    }
+    aside{
+        width: 30%;
+    }
+    .widget{
+        padding: 8% 7%;
+        margin-bottom: 10px;
+    }
+}
+@media screen and (max-width:650px){
+    header{
+        height: auto;
+        margin: 15px 0;
+    }
+    nav{
+        position: static;
+    }
+    nav ul{
+        height: 44px;
+        position: static;
+    }
+    form{
+        position: absolute;
+		top: 26px;
+		right: 15px;
+		z-index: 1;
+		height: 40px;
+    }
+    form #s{
+        width: 70px;
+    }
+    article{
+        width: auto;
+        float: none;
+        margin: 20px 0;
+    }
+    aside{
+        width: auto;
+        float: none;
+        margin: 0;
+    }
+    .widget{
+        padding: 4% 5%;
+        margin: 0 0 10px;
     }
 }
